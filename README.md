@@ -1,6 +1,5 @@
-# Agent-Oriented-Software-Engineering
-The goal of this assignment consists of designing the management of an au-
-tonomous warehouse, where drones and robots are employed to retrieve, move
+# Agent-Oriented-Software-Engineering Project
+The goal of this assignment consists of designing the management of an autonomous warehouse using UNITY Prolog, where drones and robots are employed to retrieve, move
 and deliver packages (represented as boxes, in our case).
 
 ![uno](https://user-images.githubusercontent.com/18367371/108044669-da722c00-7042-11eb-870d-98cb47cdf6b4.PNG)
@@ -58,3 +57,6 @@ The SortingBot is responsible for the sorting of the boxes from an exchange
 area to another one. It is invoked by the RailBot of the starting area, and
 it delegates the management of the box to the RailBot of the destination
 area.
+
+Drones, RailBots and the SortingBot may not have enough energy to do more than one travel, so they have to recharge after each of them (i.e., have to
+go back to a charging station before starting a new task).
